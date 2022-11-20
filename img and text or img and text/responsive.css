@@ -1,0 +1,26 @@
+
+@media all and (max-width: 1350px){
+  .pad-1{
+    margin-left: 80px;
+  }
+  .pad-2{
+    margin-right: 80px;
+   }
+}
+
+@media (max-width: 900px){
+.bg-1 {
+    clip-path: none;
+    width: 100%;
+}
+.bg-2 {
+    clip-path: none;
+    width: 100%;
+}
+.pad-1{
+  margin-left: 0px;
+}
+.pad-2{
+  margin-right: 0px;
+}
+}
