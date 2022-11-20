@@ -1,0 +1,50 @@
+
+
+
+.zigzag-text-bg-1{
+  background-image: url(Img/bg-1.jpg);
+}
+
+.zigzag-text-bg-2{
+  background-image: url(Img/bg-2.jpg);
+}
+
+.section-padding{
+  background-size: cover;
+  background-position: center;
+}
+
+.zigzag-text{
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 100px;
+}
+
+.zigzag-text::after{
+  position: absolute;
+  left: -4900%;
+  top: 0;
+  height: 100%;
+  width: 5000%;
+  background-color: #333;
+  content: '';
+  z-index: -1;
+  transform: skew(10deg);
+  opacity: .5;
+}
+
+.zigzag-text-bg-2 .zigzag-text::after{
+  left: auto;
+  right: -4900%;
+}
+
+.btn{
+  background-color: #16385E;
+  color: #fff;
+  border: none;
+}
+.btn:hover{
+  background-color: #000;
+  color: #fff;
+}
