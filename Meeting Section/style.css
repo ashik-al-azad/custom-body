@@ -1,0 +1,91 @@
+/* Google Font Family */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #E8F1F8;
+	font-family: 'Merriweather', serif;
+	padding: 50px;
+}
+
+.meet_area {
+	padding: 50px;
+}
+
+.meet_area .meet_title {
+	text-align: center;
+}
+
+.meet_area .meet_title h2 {
+	text-transform: uppercase;
+	font-size: 35px;
+}
+
+.meet_area .meet_title hr {
+	width: 100px;
+	height: 5px;
+	margin: 10px auto;
+	background-color: #C9D9E4;
+	border: none;
+}
+
+.meet_area .meet_title h5 {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+.meet_content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.meet_single_item {
+	width: 20%;
+	text-align: center;
+}
+
+.meet_area .meet_img {
+	margin: 50px 0;
+}
+
+.meet_area .meet_img img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+.meet_area .meet_child_title h3 {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.meet_area .meet_child_title h5 {
+	text-transform: capitalize;
+	color: #6EC7D6;
+}
+
+.meet_area .meet_child_title h5 span {
+	text-transform: uppercase;
+}
+
+.meet_area .meet_description {
+	margin: 20px 0;
+}
+
+.meet_area .social_icons i {
+	margin: 0 10px;
+	font-size: 15px;
+	color: #fff;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	background-color: #BED1E0;
+	border-radius: 50px;
+}
